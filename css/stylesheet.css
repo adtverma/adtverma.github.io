@@ -1,5 +1,5 @@
 body {
-  font-size: 54px;
+  font-size: calc(4vh + 2vw);
   font-family:"Helvetica Neue", "Open Sans", sans-serif;
   font-weight: 300;
   color: black;
@@ -28,7 +28,7 @@ a {
     left: 50%;
     position: fixed;
     transform: translate(-50%, -50%);
-    font-size: 22px;
+    font-size: calc(2vh + 1vw);
     width: 45%;
 }
 
@@ -53,7 +53,7 @@ a {
 
 #writing {
     position: fixed;
-    top: 84px;
+    top: calc(7vh + 3vw);
     right: 0;
     transform-origin: top left;
     transform: translate(100%) rotate(90deg);
