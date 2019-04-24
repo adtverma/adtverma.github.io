@@ -16,11 +16,24 @@ a {
     color: #7d2de5;
 }
 
+.white {
+    color: white;
+}
+
 #adteyes {
     top: 50%;
     left: 50%;
     position: fixed;
     transform: translate(-50%, -50%);
+}
+
+.projectImage {
+    top: 50%;
+    left: 50%;
+    position: fixed;
+    transform: translate(-50%, -50%);
+    height: 100%;
+    display: none;
 }
 
 #about {
